@@ -1,0 +1,342 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&display=swap");
+.container {
+  max-width: 1140px;
+}
+
+.text-center1 {
+  text-align: center;
+  min-width: 15px;
+  max-height: 10px;
+}
+
+.row h2 {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  font-size: 40px;
+  font-weight: 700;
+}
+#t {
+  position: absolute;
+  width: 120px;
+  margin-top: 300px;
+  color: white;
+}
+.shadow-sm {
+  filter: drop-shadow(0px 1px 2px #1c2242);
+}
+.border {
+  position: absolute;
+  margin-top: 80px;
+  border: 1px solid #c1d1dd !important;
+  border-color: white;
+  padding-bottom: 25px;
+  min-height: fit-content;
+}
+.bg-white {
+  background-color: white !important;
+}
+.table {
+  border-collapse: collapse;
+}
+tbody {
+  border-right: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
+.input table th {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  background-color: #1c2242;
+  text-align: center;
+  line-height: 45px;
+  min-height: 45px;
+  vertical-align: middle;
+  height: 30px;
+  color: #c1d1dd;
+}
+
+.input table td {
+  line-height: 30px;
+  min-height: 30px;
+  height: 30px;
+  border-right: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+  background-color: #fafafa;
+  padding: 7px;
+  text-align-last: center;
+  text-align: center;
+}
+td {
+  border-right: 1px solid #ccc !important;
+  border-bottom: 1px solid #ccc !important;
+}
+
+.Add-button {
+  margin-top: 15px;
+  padding: 8px 13px;
+  border-width: 0;
+  background-color: #1c2242 !important;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.Remove-Button {
+  margin-top: 15px;
+  padding: 8px 13px;
+  border-width: 0;
+  background-color: #1c2242;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.rbText {
+  font-size: 20px;
+  color: #c1d1dd;
+  text-align: center;
+}
+#hours {
+  text-align: center;
+}
+.img {
+  background-image: url(./imgs/back1.png);
+  background-repeat: no-repeat;
+  min-height: 600px;
+  width: 100%;
+  position: absolute;
+
+  background-size: 100% 100%;
+}
+
+.select_hours {
+  min-width: 85%;
+  height: 30px;
+}
+#checkbox {
+  vertical-align: middle !important;
+  cursor: pointer;
+}
+
+#images-container {
+  position: absolute;
+}
+
+#small-image {
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+  z-index: 0;
+  margin-right: 10px;
+}
+.addCouse {
+  text-align: center !important;
+}
+.calc {
+  padding: 8px 13px;
+  border-width: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  background-color: #1c2242;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+.mt-7 {
+  margin-top: 12rem;
+}
+.btn span.icon {
+  background-image: url(./imgs/icon.png);
+  float: right;
+  width: 50px;
+  height: 40px;
+}
+.btn:before {
+  background-image: url(./imgs/icon.png);
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.button_icon {
+  color: #fafafa;
+}
+@media only screen and (max-width: 600px) {
+  /*.text-center {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    position: absolute;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 15vh;
+  }*/
+}
+.gpa-calculator {
+  border-radius: 50%;
+  position: absolute;
+  background-color: whitesmoke;
+  width: 180px;
+  height: 180px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 0px -3px 3px rgba(50, 50, 50, 0.75);
+  font-size: 22px;
+}
+.gpa-text {
+  text-align: center;
+}
+.tgrade {
+  text-align: center;
+  justify-self: center;
+  left: 0;
+  right: 0;
+  font-family: "Almarai", sans-serif;
+  font-size: 12px;
+  display: inline-block;
+}
+.spacer {
+  height: 20px;
+  left: 0;
+  right: 0;
+  margin-top: 66px;
+  /* margin: 20px 0 -50px 0; use this if you want #container to have a 'bottom padding', in this case of 20px */
+  background: transparent; /* you'll need this if #container's parent element has a different background from #container itself */
+}
+.gauge__body {
+  width: 100%;
+  height: 0;
+  padding-bottom: 50%;
+  background: #b4c0be;
+  position: relative;
+  border-top-left-radius: 100% 200%;
+  border-top-right-radius: 100% 200%;
+  overflow: hidden;
+}
+.gauge__fill {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: inherit;
+  height: 100%;
+  background-color: #1c2242;
+  transform-origin: center top;
+  transform: rotate(0turn);
+  transition: transform 0.2s ease-out;
+}
+.gauge__cover {
+  width: 79%;
+  height: 152%;
+  background-color: whitesmoke;
+  position: absolute;
+  border-radius: 50%;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%);
+
+  /* text */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 18%;
+  box-sizing: border-box;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 667px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+.trakomi_contianer {
+  height: auto;
+  max-width: 960px;
+  position: relative;
+  left: 50%;
+
+  padding-top: 22px;
+  transform: translateX(-50%);
+}
+.naj7-text {
+  color: gainsboro;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 10px;
+  font-family: "Almarai", sans-serif;
+  font-size: calc(10px + 0.5vw);
+}
+
+.gpa-calculator-text {
+  font-family: "Almarai", sans-serif;
+  font-size: calc(20px + 0.5vw);
+  color: white;
+  position: absolute;
+  word-break: break-all;
+  top: 40%;
+  font-weight: 600;
+  text-align: center !important;
+}
+
+.right-input {
+  height: 2em;
+  width: 120px;
+  text-align: center;
+  color: #1c2242;
+}
+
+.left-input {
+  box-sizing: border-box;
+  width: 120px;
+  text-align: center;
+  color: #1c2242;
+}
+.trakm-cont {
+  width: 70%;
+  margin-top: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 70px;
+}
+.prevGrade-text {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+}
+.hours-text {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+}
+#fasliGradeText {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+}
+#fasli {
+  font-family: "Almarai", sans-serif;
+  font-size: 15px;
+}
+#table {
+  font-family: "Almarai", sans-serif;
+}
+input[type="text"]:focus {
+  outline: 2px solid #1c2242;
+}
+
+input[id="prevGrade"]:focus {
+  outline: 2px solid white;
+}
+
+input[id="prevHours"]:focus {
+  outline: 2px solid white;
+}
