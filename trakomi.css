@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@700;800&display=swap");
 .container {
-  max-width: 1140px;
 }
 
 .text-center1 {
@@ -9,13 +8,7 @@
   max-height: 10px;
 }
 
-.row h2 {
-  font-family: "Nunito", sans-serif;
-  font-weight: bold;
-  position: absolute;
-  font-size: 40px;
-  font-weight: 700;
-}
+
 #t {
   position: absolute;
   width: 120px;
@@ -26,8 +19,6 @@
   filter: drop-shadow(0px 1px 2px #1c2242);
 }
 .border {
-  position: absolute;
-  margin-top: 80px;
   border: 1px solid #c1d1dd !important;
   border-color: white;
   padding-bottom: 25px;
@@ -262,39 +253,40 @@ td {
 }
 
 .trakomi_contianer {
-  height: auto;
-  max-width: 960px;
-  position: relative;
-  left: 50%;
-
+  height: 500px;
+  display: flex;
+  background-image: url(./imgs/back1.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
   padding-top: 22px;
-  transform: translateX(-50%);
+
 }
-.naj7-text {
+.header1{
+  
+}
+#naj7-text {
   color: gainsboro;
-  text-align: center;
   font-weight: 500;
   padding-top: 10px;
   font-family: "Almarai", sans-serif;
-  font-size: calc(10px + 0.5vw);
+  font-size: 15px;
+
 }
 
-.gpa-calculator-text {
+#gpa-calculator-text {
   font-family: "Almarai", sans-serif;
-  font-size: calc(20px + 0.5vw);
+  
+  font-size: 20px;
   color: white;
-  position: absolute;
-  word-break: break-all;
-  top: 40%;
   font-weight: 600;
-  text-align: center !important;
-}
+   }
 
 .right-input {
-  height: 2em;
   width: 120px;
   text-align: center;
   color: #1c2242;
+  max-height: 22px;
+
 }
 
 .left-input {
@@ -302,21 +294,17 @@ td {
   width: 120px;
   text-align: center;
   color: #1c2242;
+ max-height: 22px;
 }
-.trakm-cont {
-  width: 70%;
-  margin-top: 70px;
-  margin-right: auto;
-  margin-left: auto;
-  height: 70px;
-}
+
+
 .prevGrade-text {
   font-family: "Almarai", sans-serif;
-  font-size: 15px;
+  font-size: 9px
 }
 .hours-text {
   font-family: "Almarai", sans-serif;
-  font-size: 15px;
+  font-size: 9px;
 }
 #fasliGradeText {
   font-family: "Almarai", sans-serif;
@@ -339,4 +327,68 @@ input[id="prevGrade"]:focus {
 
 input[id="prevHours"]:focus {
   outline: 2px solid white;
+}
+.row-1{
+flex-direction: column;
+padding-top: 10px;
+padding-left: 30px;
+padding-right: 30px;
+max-height: 300px;
+}
+.row-2{
+width: auto; 
+max-width: 900px;
+margin-top: 20px;
+display: flex;
+max-height: 100px;
+padding-bottom: 30px !important;
+
+}
+.row{
+  margin-right: 0px !important;
+  margin-left: -8px !important;
+}
+.row-3{
+  width: auto; 
+}
+.col-4{
+  max-width: 133px !important;
+  width: 120px;
+padding-right: 0px !important;
+padding-left: 0px !important;
+}
+.container-fluid {
+  padding-right:0;
+  padding-left:0;
+  margin-right:0;
+  min-width: 100%;
+ display:block;
+  margin-left:0;
+padding: 0 !important;
+}
+.main{
+  height: 600px;
+  width:  600px;
+
+}
+.full-class{
+  height: 1222px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 667px) {
+
+
+
+}
+
+
+.col-text{
+ 
+}
+.input{
+}
+.main_text{
+  height: auto;
+  max-width: 227px;
+  padding-bottom: 10px;
 }
