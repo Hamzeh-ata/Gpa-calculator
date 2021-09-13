@@ -157,16 +157,7 @@ td {
 .button_icon {
   color: #fafafa;
 }
-@media only screen and (max-width: 600px) {
-  /*.text-center {
-    font-family: "Nunito", sans-serif;
-    font-weight: bold;
-    position: absolute;
-    font-size: 60px;
-    font-weight: 700;
-    margin-top: 15vh;
-  }*/
-}
+
 .gpa-calculator {
   border-radius: 50%;
   position: absolute;
@@ -241,17 +232,7 @@ td {
   box-sizing: border-box;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 667px) {
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
 
 .trakomi_contianer {
   height: 500px;
@@ -262,9 +243,7 @@ background-size: 100% 100%;
   padding-top: 22px;
 
 }
-.header1{
-  
-}
+
 #naj7-text {
   color: gainsboro;
   font-weight: 500;
@@ -282,27 +261,7 @@ background-size: 100% 100%;
   font-weight: 600;
    }
 
-.right-input {
-  width: 120px;
-  text-align: center;
-  color: #1c2242;
-  max-height: 22px;
 
-}
-
-.left-input {
-  box-sizing: border-box;
-  width: 120px;
-  text-align: center;
-  color: #1c2242;
- max-height: 22px;
-}
-
-
-.prevGrade-text {
-  font-family: "Almarai", sans-serif;
-  font-size: 9px
-}
 .hours-text {
   font-family: "Almarai", sans-serif;
   font-size: 9px;
@@ -372,17 +331,6 @@ padding: 0 !important;
   width:  600px;
 
 }
-.full-class{
-  height: 1222px;
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 667px) {
-
-
-
-}
-
-
 .col-text{
  
 }
